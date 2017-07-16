@@ -5,10 +5,18 @@
   "repository": "git@github.com:ScottBouloutian/magnet-facts-skill.git",
   "author": "Scott Bouloutian",
   "license": "MIT",
+  "scripts": {
+      "lint": "eslint index.js",
+      "build": "gulp build"
+  },
   "devDependencies": {
+    "del": "^3.0.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "gulp": "^3.9.1",
+    "gulp-yarn": "^1.0.0",
+    "gulp-zip": "^4.0.0"
   },
   "dependencies": {
     "alexa-sdk": "^1.0.11"
